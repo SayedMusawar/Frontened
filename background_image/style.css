@@ -1,0 +1,19 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+div {
+    height: 100px;
+    width: 100px;
+    background-color: chocolate;
+    border: 2px solid black;
+    display: inline-block;
+}
+.div1{
+    color: white;
+    right: 0px;
+    bottom: 0px;
+    position: fixed;
+    background-image: url("fox_photo.jpg");
+    background-size:cover;
+}

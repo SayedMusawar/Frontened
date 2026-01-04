@@ -1,0 +1,23 @@
+#main{
+    color: rgb(0, 0, 0);
+    width: 300px;
+    margin-left: 500px;
+    background-color: rgb(212, 240, 240);
+}
+
+.lights{
+    height: 120px;
+    align-content: center;
+    padding-left: 60px;
+    border-radius: 50%;
+    margin: 70px;
+}
+#Red{
+    background-color: red;
+}
+#Yellow{
+    background-color: yellow;
+}
+#Green{
+    background-color: green;
+}

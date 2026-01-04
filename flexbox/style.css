@@ -1,0 +1,46 @@
+/*Flex properties:
+justify ::content
+flex wrap
+align items
+align content  */
+body{
+    text-align: center;
+}
+#container{
+    height: 600px;
+    width: 600px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+}
+div{
+    height: 100px;
+    width: 150px;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+#box1{
+    background-color: aqua;
+}
+
+#box2{
+    background-color: pink;
+    height: 200px;
+}
+
+#box3{
+    background-color: darkkhaki;
+    height: 75px;
+}
+
+#box4{
+    background-color: indianred;
+}
+#box5{
+    background-color: slateblue;
+}
