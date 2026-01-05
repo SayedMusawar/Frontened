@@ -1,0 +1,29 @@
+div {
+    height: 100px;
+    width: 100px;
+    background-color:aqua;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    border: 2px solid black;
+
+    animation-name: colorAnimate;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    /* animation-timing-function: ease-in; */
+    animation-iteration-count: infinite;
+    border-radius: 50%;
+    animation-direction:alternate;
+}
+@keyframes colorAnimate {
+    from {
+        background-color:aqua;
+        top: 100px;
+        left: 100px;
+    }
+    to {
+        background-color:deeppink;
+        top: 400px;
+        /* left: 500px; */
+    }
+}
