@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header class="navbar">
+        <div class="navbar-logo">
+            <i class="fa-brands fa-spotify"></i>
+        </div>
+
+        <div class="nav-search">
+            <button class="nav-search-home">
+                <i class="fa-regular fa-house"></i>
+            </button>
+            <div class="nav-search-input">
+                <button>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+                <input type="text" placeholder="What do you want to play?">
+                <div class="shop">
+                    <i class="fa-solid fa-basket-shopping"></i>
+                </div>
+            </div>
+        </div>
+
+        <!-- Signup options -->
+        
+        <div class="nav-right">
+            <button class="nav-right-buttons">Premium</button>
+            <button class="nav-right-buttons">Support</button>
+            <button class="nav-right-buttons">Download</button>
+            <div class="seperate">|</div>
+            <button class="install">
+                <i class="fa-regular fa-circle-down"></i>
+                Install App
+            </button>
+            <div class="login">
+                <button class="install">Signup</button>
+                <button id="login">Log in</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- MAIN BODY -->
+
+    <main class="main-section">
+        <div class="left-section">
+            <div class="first-library-sec">
+                <header class="left-sidebar-header">
+                    <div class="library">
+                        <h1>Your Library</h1>
+                        <span>
+                            <button>
+                                <i class="fa-solid fa-plus"></i>
+                            </button>
+                        </span>
+                    </div>
+                </header>
+            </div>
+            <div class="sidebar-content">
+                <div class="card">
+                    <h2>Create your first playlist</h2>
+                    <p>It's easy, we'll help you</p>
+                    <button class="btn">Create Playlist</button>
+                </div>
+                <div class="card">
+                    <h2>Let's find some podcasts to follow</h2>
+                    <p>We'll keep you updated on new episodes</p>
+                    <button class="btn">Browse podcasts</button>
+                </div>
+                <div class="card">
+                    <h2>Discover new music</h2>
+                    <p>Personalized recommendations just for you</p>
+                    <button class="btn">Explore</button>
+                </div>
+                <div class="card">
+                    <h2>Your top mixes</h2>
+                    <p>Listen to your favorite songs on repeat</p>
+                    <button class="btn">Play now</button>
+                </div>
+            </div>
+
+            <div class="sidebar-footer">
+                <div class="footer-tags">
+                    <div class="tags">
+                        <a href="#">Legal</a>
+                        <a href="#">Safety & Privacy Center</a>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Cookies</a>
+                        <a href="#">About Ads</a>
+                        <a href="#">Accessibility</a>
+                    </div>
+                    <span>Cookies</span>
+                </div>
+                <div class="lang-btn">
+                <button>
+                    <i class="fa-solid fa-globe"></i>
+                    <span>English</span>
+                </button>
+            </div>
+            </div>
+        </div>
+
+        <div class="right-section">
+            <div class="header-outer">
+                <div class="heading">
+                    <div class="title">
+                        <a href="#">Trending songs</a>
+                    </div>
+                    <div class="show-all">
+                        <a href="#">
+                            <span>Show all</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="content-area">
+                <div class="song">
+                    <div class="song-img">
+                        <div class="display-pic"></div>
+                        <div class="play-song"></div>
+                    </div>
+                    <div class="song-title">
+                        <div class="song-name"></div>
+                        <div class="author"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="footer"></div>
+</body>
+</html>
